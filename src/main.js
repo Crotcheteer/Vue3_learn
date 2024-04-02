@@ -8,6 +8,8 @@ import router from './router'
 
 const app = createApp(App)
 
+console.log(123)
+
 app.use(createPinia())
 app.use(router)
 
